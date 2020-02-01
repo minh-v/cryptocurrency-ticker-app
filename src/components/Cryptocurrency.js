@@ -19,9 +19,9 @@ class Cryptocurrency extends Component {
           {name} ({symbol})
         </p>
         <h1>${(+price_usd).toFixed(2)}</h1>
-        <p>{percent_change_1h}%</p>
-        <p>{percent_change_24h}%</p>
-        <p>{percent_change_7d}%</p>
+        <p>{percent_change_1h}% 1hr</p>
+        <p>{percent_change_24h}% 24hr</p>
+        <p>{percent_change_7d}% 7days</p>
       </li>
     );
   }
